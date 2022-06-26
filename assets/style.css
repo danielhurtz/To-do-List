@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(16, 99, 102), rgb(55, 73, 100));
+}
+
+h1 {
+    letter-spacing: 3pt;
+    font-size: 28pt;
+    color: #fff;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    color: rgba(121, 121, 121, 0.678);
+}
+
+.box {
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 1px 25px 1px 25px;
+    padding: 2%;
+    height: auto;
+    width: 16em;
+    background-color: rgba(185, 185, 185, 0.418);
+}
+
+#task-input input {
+    border-radius: 5px;
+    font-size: 12pt;
+    color: #fff;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+input::placeholder {
+    color: rgb(55, 73, 100);
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.795);
+}
+
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 99, 102);
+    font-size: 12pt;
+    padding: 4px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid rgb(55, 73, 100);
+}
+
+button:hover {
+    letter-spacing: 0.1px;
+}
+
+/* vai riscar a tarefa quando clicar na checkbox */
+input[type=checkbox]:checked~label {
+    text-decoration: line-through;
+    color: rgb(104, 104, 104);
+}
+
+footer {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+footer:hover {
+    color: #fff;
+    transition-duration: 3s;
+}
