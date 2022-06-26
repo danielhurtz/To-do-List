@@ -25,7 +25,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Autor
 
-Feito por [**Daniel Oliveira**](https://github.com/danielhurtz)
+Feito por [**Daniel Oliveira**](https://github.com/danielhurtz) 👏🏻
 
 #
 
