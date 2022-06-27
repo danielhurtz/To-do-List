@@ -25,7 +25,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ### Autor
 
-Feito por [**Daniel Oliveira**](https://github.com/danielhurtz) 👏🏻
+Feito por [**Daniel Oliveira**](https://github.com/danielhurtz) 👏🏻 
+<br>
+<img src="https://img.shields.io/github/license/danielhurtz/to-do-list.svg"/>
 
 #
 
