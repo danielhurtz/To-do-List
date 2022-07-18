@@ -4,6 +4,9 @@
 
 ## Demonstracao
 
+<a href="https://to-do-list22.netlify.app/">
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"></a>
+
 ![Screenshot_1](https://user-images.githubusercontent.com/100965881/175837828-32ddb854-d915-4ec5-a016-c0c3bf9bfb5e.png)
 
 #
